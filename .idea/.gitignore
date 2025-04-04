@@ -1,8 +1,28 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# ✅ 忽略依赖包
+node_modules/
+
+# ✅ 忽略构建产物
+dist/
+build/
+
+# ✅ 忽略日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ✅ 忽略 Vite 缓存
+.vite/
+
+# ✅ 忽略 VSCode 配置（如果你用 VSCode）
+.vscode/
+
+# ✅ 忽略环境变量文件
+.env
+.env.*.local
+
+# ✅ WebStorm / IntelliJ 编辑器默认的
+.idea/
+*.iml
+
+# ✅ macOS 系统文件
+.DS_Store
